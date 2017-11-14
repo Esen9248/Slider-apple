@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Apple iPhone X</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="dist/style.min.css">
+<link rel="stylesheet" type="text/css" href="lib/w3-css/w3.css">
+<script src="lib/jquery/jquery.js"></script>
+<script type="text/javascript" src="dist/main.min.js"></script>
+</head>
+<body>
+<style>
+.mySlides {display:none}
+.w3-left, .w3-right, .w3-badge {cursor:pointer}
+.w3-badge {height:13px;width:13px;padding:0}
+</style>
+<section>
+	<ul class="NavUl">
+		<li class="dropdown">
+			<a class="dropbtn">Other <i class="fa fa-chevron-down" aria-hidden="true"></i></a>
+			<div class="dropdown-content">
+				<a href="#">iMac</a>
+				<a href="#">iPod</a>
+				<a href="#">iPad</a>
+				<a href="#">Watch</a>
+			</div>
+		</li>
+		<li><a href="#">iPhone 4</a></li>
+		<li><a href="#">iPhone 5</a></li>
+		<li><a href="#">iPhone 6</a></li>
+		<li><a href="#">iPhone 7</a></li>
+		<li><a href="#">iPhone 8</a></li>
+	</ul>
+</section>
+
+<section class="Slide">
+
+<div class="w3-content w3-display-container maindiv">
+<img class="mySlides w3-animate-right" src="iphX1.jpg">
+<img class="mySlides w3-animate-right" src="iphone-x-gallery2-2017.jpg">
+<img class="mySlides w3-animate-right" src="iphone-x-gallery3-2017.jpg">
+<img class="mySlides w3-animate-right" src="iphone-x-gallery4-2017.jpg">
+<img class="mySlides w3-animate-right" src="iphX5.jpg">
+<div class="btnSlide w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
+<div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)">
+<i id="left" class="fa fa-chevron-circle-left" aria-hidden="true"></i>
+</div>
+<div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">
+<i id="right" class="fa fa-chevron-circle-right" aria-hidden="true"></i></div>
+<div class="tochki w3-center w3-display-bottommiddle">
+<span class="tochki w3-badge demo w3-border w3-transparent w3-hover-black" onclick="currentDiv(1)"></span>
+<span class="tochki w3-badge demo w3-border w3-transparent w3-hover-black" onclick="currentDiv(2)"></span>
+<span class="tochki w3-badge demo w3-border w3-transparent w3-hover-black" onclick="currentDiv(3)"></span>
+<span class="tochki w3-badge demo w3-border w3-transparent w3-hover-black" onclick="currentDiv(4)"></span>
+<span class="tochki w3-badge demo w3-border w3-transparent w3-hover-black" onclick="currentDiv(5)"></span>
+</div>
+</div>
+</section>
+<section class="what">
+<button onclick="document.getElementById('id01').style.display='block'" class="w3-button btn btn-info" style="position:relative;">What's in the BOX</button>
+<!-- Modal -->
+<div id="id01" class="w3-modal">
+<div class="w3-modal-content">
+<header class="w3-container w3-black">
+<span onclick="document.getElementById('id01').style.display='none' " class="w3-button w3-dispaly-bottomright">Close</span>
+</header>
+<div>
+<img src="earpods.jpg">
+<img src="iphone-x-gray-box-201709.jpg">
+<img src="lightning-to-usb-iphone-box-201709.jpg">
+<img src="power-adapter-iphone-box-201709.jpg">
+<img src="headphone-adapter-iphone-box-201709.jpg">
+</div>
+</div>
+</div>
+</section>
+<script src="lib/jquery/jquery.js"></script>
+<script type="text/javascript" src="dist/main.min.js"></script>
+</body>
+</html>
