@@ -9,7 +9,6 @@
   "author": "Esen Esenaliev",
   "license": "ISC",
   "dependencies": {
-    "bootstrap": "^3.3.7",
     "browser-sync": "^2.18.13",
     "fontawesome": "^4.7.2",
     "gulp-clean-css": "^3.9.0",
