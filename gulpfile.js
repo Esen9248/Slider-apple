@@ -32,6 +32,14 @@ gulp.task('copy', function() {
     gulp.src(['node_modules/w3-css/w3.css'])
     .pipe(gulp.dest('lib/w3-css'))
 
+    gulp.src(['node_modules/font-awesome/**',
+            '!node_modules/font-awesome/**/*.map',
+            '!node_modules/font-awesome/.npmignore',
+            '!node_modules/font-awesome/*.txt',
+            '!node_modules/font-awesome/*.md',
+            '!node_modules/font-awesome/*.json'])
+    .pipe(gulp.dest('lib/font-awesome'))
+
 })
 // Run everything
 gulp.task('default', ['minify-css', 'minify-js', 'copy']);
